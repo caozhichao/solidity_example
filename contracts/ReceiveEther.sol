@@ -8,14 +8,18 @@ contract ReceiveEther {
   function balance() public view returns(uint256){
     return address(this).balance;
   }
+
+  function receiveETH() public payable {
+    
+  }
   
   receive() external payable {
-      statusMsg = "receive";
+    // statusMsg = "receive";
     // emit Log("receive");
   }
 
   fallback() external payable{
-    statusMsg = "fallback";
+    // statusMsg = "fallback";
     // emit Log("fallback");
   }
 

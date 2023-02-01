@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/caozhichao/solidity_example#readme",
   "dependencies": {
-    "hardhat": "^2.9.6"
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.7.3",
+    "hardhat": "^2.12.6"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.1.0",
